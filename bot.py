@@ -47,7 +47,7 @@ async def download(update: Update, _):
 
 
 if __name__ == '__main__':
-    TOKEN = os.getenv("BOT_TOKEN")
+    TOKEN = os.getenv("7835572528:AAFy2MUIFZ2QsSyw5FMKn4jK9-ZcGgx5poI")
     app = Application.builder().token(TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
